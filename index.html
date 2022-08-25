@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quanto de água por dia? - Sua Saúde </title>
+
+    <style>
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        .container {
+            flex-direction: column;
+            width: 350px;
+            border: 2px black solid;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .container input {
+            margin: 8px 4em;
+        }
+
+        .container button {
+            display: block;
+            margin: 5px auto;
+        }
+    </style>
+
+</head>
+<body>
+    <main>
+        <form id="mainForm" class="container">
+            <h1>Qual quantidade de água beber durante o dia?</h1>
+            <input type="number" name="peso" placeholder="Peso em kg">
+            <button type="submit" id="btn">Calcular</button>
+        </form>
+        <div id="result">
+
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
