@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
 
     <style>
+        
+        body {
+            background-color: #000;
+            color: #FFF;
+        }
         main {
             display: flex;
             justify-content: center;
@@ -41,12 +46,30 @@
 <body>
     <main>
         <form id="mainForm" class="container">
-            <h1>Qual quantidade de água beber durante o dia?</h1>
-            <input type="number" name="peso" placeholder="Peso em kg">
-            <button id="btn" type="button" class="btn btn-info">Info</button>
+            <h1>
+                Qual quantidade de água beber durante o dia?
+            </h1>
+
+            <input
+                type="number"
+                name="peso"
+                placeholder="Peso em kg"
+            >
+
+            <button
+                id="btn"
+                type="button"
+                class="btn btn-info"
+                >Calcular
+            </button>
+
         </form>
-        <div id="result" class="alert alert-success" role="alert">
-                     
+        
+        <div
+            id="result"
+            class="alert alert-success"
+            role="alert">
+            Esperando o cálculo ser feito.
         </div>
     </main>
 

@@ -7,13 +7,11 @@ button.onclick = (e) => {
 
 function waterCalculate() {
     const peso = document.forms['mainForm']['peso'].value
-    const res = peso * 35
-    showMessage(res)
+    const res = peso * 35.0
+    showMessage(Math.fround(res))
 }
 
 function showMessage(text) {
     const response = document.getElementById('result')
-    const message = `<p>No seu caso, a quantidade necessária é de ${text} litros por dia</p>`
-
-    response.innerHTML = message
-}
+    response.innerHTML = `<p>No seu caso, a quantidade necessária é de ${text} litros por dia</p>`
+}   
