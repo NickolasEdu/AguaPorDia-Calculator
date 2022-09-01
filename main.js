@@ -2,7 +2,6 @@ const button = document.getElementById('btn')
 
 button.onclick = (e) => {
     e.preventDefault()
-
     waterCalculate()
 }
 
@@ -14,7 +13,7 @@ function waterCalculate() {
 
 function showMessage(text) {
     const response = document.getElementById('result')
-    const message = `<br><p>No seu caso, a quantidade necessária é de ${text}L por dia</p>`
+    const message = `<p>No seu caso, a quantidade necessária é de ${text} litros por dia</p>`
 
     response.innerHTML = message
 }
