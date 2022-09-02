@@ -13,5 +13,5 @@ function waterCalculate() {
 
 function showMessage(text) {
     const response = document.getElementById('result')
-    response.innerHTML = `<p>No seu caso, a quantidade necessária é de ${text} litros por dia</p>`
+    response.innerHTML = `<p>No seu caso, a quantidade necessária é de ${text}ml durante o dia</p>`
 }   
