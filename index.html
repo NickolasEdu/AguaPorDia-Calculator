@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./main.css">
 </head>
+
 <body>
     <main>
         <form id="mainForm" class="container">
@@ -16,36 +18,75 @@
                 Qual quantidade de água beber durante o dia?
             </h1>
 
-            <input
-                type="number"
-                name="peso"
-                placeholder="Peso em kg"
-            >
+            <input type="number" name="peso" placeholder="Peso em kg">
 
-            <button
-                id="btn"
-                type="button"
-                class="btn btn-info"
-                >Calcular
+            <button id="btn" type="button" class="btn btn-info">Calcular
             </button>
 
         </form>
-        
-        <div
-            id="result"
-            class="alert alert-success"
-            role="alert">
+
+        <div id="result" class="alert alert-success" role="alert">
             Esperando o cálculo ser feito.
         </div>
     </main>
 
     <article>
-        <h1>Qual o significado do índice IMC?</h1>
+        <h2>O quanto de água devemos beber?</h2>
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate tempore assumenda incidunt optio! Nemo distinctio alias inventore a recusandae consectetur consequuntur, doloribus asperiores expedita nisi aut illum harum nobis nihil?
+            Provavelmente você já deve ter ouvido que devemos tomar 2 litros de água por dia, mas até que ponto essa
+            afirmação é verdadeira? Bem essa base não está totalmente errada, mas para uma resposta mais específica, é
+            necessário fazer o cálculo baseado no seu peso. Essa matemática pode variar dependendo da idade, na
+            calculadora acima foi feita no parâmetro para pessoas entre 18 e 55 anos, em caso de idade inferior é
+            adicionado mais 5ml enquanto em caso de idade superior serão removidos 5ml dos 35 anteriores.
         </p>
+
+        <p>
+            Porém estes não são os únicos parâmetros para serem levados em consideração, outros fatores como clima e
+            prática de atividade física irão alterar essa equação.
+        </p>
+
+        <dl>
+            <dt>Nível de atividade física</dt>
+            <dd>
+                Quem corre todos os dias necessita de mais água do que alguém que faz caminhadas três vezes por semana.
+                Portanto, quanto mais intensa a atividade física realizada, maior a quantidade de água necessária. Também é importante tomar água durante e depois das atividades físicas.
+            </dd>
+        </dl>
+
+        <dl>
+            <dt>Clima</dt>
+            <dd>
+                Quem mora em cidades quentes precisa de mais água do que quem mora em locais mais frios. Também precisamos de mais água no verão, quando suamos mais e, portanto, perdemos mais água, do que no inverno.
+            </dd>
+        </dl>
+
+        <dl>
+            <dt>Metabolismo</dt>
+            <dd>
+                Quem tem um metabolismo mais acelerado necessita de mais água do quem tem o metabolismo mais lento.
+            </dd>
+        </dl>
+
+        <dl>
+            <dt>Consumo de álcool</dt>
+            <dd>
+                Se for ingerir álcool, procure alternar a bebida alcoólica com água. A dica é tomar um copo de água depois de cada drinque,  já que o álcool ajuda a desidratar o organismo.
+            </dd>
+        </dl>
+
+        <dl>
+            <dt>Estado geral</dt>
+            <dd>
+                Algumas condições físicas interferem na necessidade de água. Se você tiver febre, por exemplo, deverá aumentar a ingestão de líquidos. A mesma dica vale para quem apresentar episódios de diarreia ou vômitos. Para repor o líquido perdido, opte por caldos e sopas em vez de líquidos açucarados.
+            </dd>
+        </dl>
+
+        <span>
+            Referências: <a href="https://drauziovarella.uol.com.br/alimentacao/5-motivos-para-nao-deixar-de-tomar-agua/#:~:text=A%20quantidade%20de%20%C3%A1gua%20que,Todo%20dia.">Drauzio Varela</a>.
+        </span>
     </article>
 
     <script src="main.js"></script>
 </body>
+
 </html>
