@@ -14,7 +14,7 @@ main {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 95vh;
+    height: 90vh;
     flex-direction: column;
 }
 
@@ -33,4 +33,27 @@ main {
 .container button {
     display: block;
     margin: 5px auto;
+}
+
+article {
+    margin: auto 2em;
+}
+
+article h2 {
+    margin-top: 5px;
+}
+
+article #table {
+    width: 450px;
+}
+
+footer p {
+    display: flex;
+    justify-content: end;
+    margin: auto 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--light-color);
 }
