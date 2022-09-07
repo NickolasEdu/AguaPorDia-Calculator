@@ -10,11 +10,16 @@ body {
 
 header {
     background-color: var(--primary-color);
+    color: var(--text-color);
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
 }
 
 header button {
     margin: 5px;
 }
+
 main {
     background-color: var(--primary-color);
     color: var(--text-color);
@@ -22,7 +27,7 @@ main {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 90vh;
+    height: 82vh;
     flex-direction: column;
 }
 
